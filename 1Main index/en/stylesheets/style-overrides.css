@@ -1,0 +1,123 @@
+
+@media only screen and (min-width:720px) and (max-width:959px) {
+	.header img {
+		margin-right: 0px;
+		margin-left: 0px;
+    margin-top:0px;
+	}
+}
+@media only screen and (max-width:719px) {
+.header img {
+        margin-right: 0px;
+        margin-left: 3px;
+    }
+}
+
+.toggle-button.icon.icon-menu {
+    padding: 25px 0px 25px 18px;
+    margin: 0px;
+} 
+.header .stretch .title {
+  padding: 15px 0px 0px 0px
+}
+.wrapper .lang-btn-box {
+  position: relative;
+  display: block;
+  margin: 5px;
+  padding: 5px;
+  float: right;
+}
+.wrapper a.lang-btn {
+  border-bottom: #000000;
+  font-weight: 500;
+}
+.wrapper a.lang-btn {
+  width: auto;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 2px;
+}
+.wrapper a.lang-btn.active {
+  color: #000;
+  font-weight: 600;
+  border-bottom: 2px solid #09B9B9;
+}
+.wrapper a.lang-btn.clickable {
+  color: #000000;
+  font-weight: 400;
+  border-bottom: 2px solid #a5acb2;
+}
+a.lang-btn .active:hover,
+a.lang-btn.clickable:hover {
+    color: #09B9B9;
+    font-weight: 500;
+}
+.pad-even {
+    padding: 20px;
+}
+.article figure.pad-even {
+    margin: 8px;
+}
+.pad-top {
+    padding-top: 15px;
+}
+.align-right {
+    padding-right: 30px;
+    padding-top: 10px;
+    float: right;
+    justify-content: all;
+}
+  .article table td figure,
+  .article table td img {
+    padding: 5px;
+    margin: 3px;
+  }
+  .article table td,
+  .article table th {
+    padding: 9px;
+  }
+  td, th {
+    text-align: match-parent;
+  }
+
+div.toc-box {
+  font-size: 14px;
+  padding: 8px 12px;
+  width: fit-content;
+}
+div .toc-box p {
+  font-size: 12px;
+  font-weight:400;
+  color: #566068;
+}
+footer div.copyright div.social-buttons {
+  padding-bottom: 10px;
+}
+div.drawer div.social-buttons {
+  font-size: 24px;
+  padding-left: 30px;
+}
+div.drawer > div.social-buttons > span {
+  padding: 10px;
+}
+div.copyright {
+  font-size:12px;
+}
+div.copyright > div.social-buttons > a {
+  font-size: 18px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  margin: 5px 5px;
+}
+.social-buttons > a:hover {
+  color:#09B9B9;
+}
+div.lastmod {
+  font-size: 10px;
+  color: #a5acb2;
+}
+.pagination .direction,
+.pagination .button .icon:hover {
+  color: #09B9B9;
+}

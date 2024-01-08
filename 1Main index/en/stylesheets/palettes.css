@@ -1,0 +1,77 @@
+   /* Ozone 9 Color Palette */
+   @supports (-webkit-appearance:none) {
+    .palette-primary-relay {
+      background : #fff;
+    }
+  }
+  .palette-primary-relay .footer,
+  .palette-primary-relay .header {
+    background : #13161a;
+  }
+  .palette-primary-relay .drawer .toc a.current,
+  .palette-primary-relay .drawer .toc a:focus,
+  .palette-primary-relay .drawer .toc a:hover {
+    color : #09B9B9;
+  }
+  .palette-primary-relay .drawer .anchor a {
+    border-left : #09B9B9 solid 1px;
+  }
+  .ios.standalone .palette-primary-relay .article {
+    background : -webkit-linear-gradient(top,
+                  #fff 50%,
+                  #fff 0);
+    background : linear-gradient(
+                  180deg,
+                  #fff 50%,
+                  #fff 0
+                );
+  }
+  .palette-primary-relay .article a {
+    color: #000;
+    border-bottom: #09B9B9 solid 1px;
+    font-weight: 600;
+  }
+  .palette-accent-relay .article a:focus,
+  .palette-accent-relay .article a:hover {
+    color : #09B9B9;
+  }
+  .palette-primary-relay .article h1{
+    color: #09B9B9;
+  }
+  .palette-primary-relay .article .headerlink {
+    display: none;
+  }
+  .palette-primary-relay .article table {
+    border: #566068 1px solid;
+  }
+  .palette-primary-relay .article table th {
+    background : #13161a;
+    text-transform: uppercase;
+  }
+  .palette-primary-relay .results .meta {
+    background : #fff;
+  }
+  .palette-primary-relay .article .admonition.note {
+    background: rgba(9, 185, 185, 0.1);
+    border-color: #09B9B9;
+  }
+  .palette-primary-relay .article .admonition.warning {
+    background: rgba(239, 91, 95, 0.1);
+    border-color: #EF5B5F;
+  }
+  .palette-primary-relay .article .admonition.info {
+    background: rgba(113, 85, 199, 0.1);
+    border-color: #7155C7;
+  }
+  .palette-primary-relay .article .admonition.tip {
+    background: rgba(255, 96, 28,0.1);
+    border-color: #FF601C;
+  }
+  .palette-primary-relay .article .admonition.link {
+    background: rgba(0, 174, 66, 0.1);
+    border-color: #00AE42;
+  }
+  .palette-primary-relay .wrapper a.lang-btn.active {
+    color: #000;
+    border-bottom: 2px solid #09B9B9;
+}

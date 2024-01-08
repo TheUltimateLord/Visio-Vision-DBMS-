@@ -1,0 +1,288 @@
+@page {
+	size: letter;
+	margin: 25.4mm;
+	orphans:4;
+	widows:4;
+}
+html
+    {
+		background-color: #FFFFFF;
+		font-size: 16pt;
+		margin: 0mm; /*this affects the margin on the html before sending to printer */
+		padding: 12.7mm; 
+	}
+
+header,
+nav,
+footer,
+.lang-header,
+.wrapper .lang-btn-box,
+.wrapper .lang-btn,
+.stretch,
+.drawer,
+.footer,
+.header,
+.backdrop .backdrop-paper,
+.backdrop-paper:after,
+.toggle,
+#toggle-drawer:checked~.overlay,
+.toggle-drawer .overlay,
+.article pre,
+.article pre *, 
+a.headerlink,
+div.lastmod {
+	display: none;
+}
+
+/* Displaying link color and link behaviour */
+a:link,
+a:visited,
+a {
+	background: transparent;
+	font-weight: 600;
+	text-decoration: underline;
+	text-align: left;
+	color: #000;
+}
+a {
+	break-inside: avoid;
+}
+img {
+	max-width: 100% !important;
+	break-inside: avoid;
+}
+body,
+input {
+	font-size: 12pt;
+	color: #000000;
+	background: #fff;
+}
+p, ul, ol {
+	margin-top: 6mm;
+	margin-bottom: 6mm;
+}
+div.data,
+table {
+	margin-top: 12.7mm;
+	margin-bottom: 12.7mm;
+}
+div.toc-box {
+	border: none;
+	break-inside: avoid;
+}
+.printpagebreak {
+	break-before: always;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 700;
+	color: #000000;
+	break-before: always;
+}
+h1 {
+	font-size: 24pt;
+}
+h2 {
+	font-size: 20pt;
+	margin-top: 25px;
+	break-after: avoid;
+}
+h3, h4, h5, h6 {
+	font-size: 16pt;
+	break-after: avoid;
+}
+ul, ol, li {
+	break-before: avoid;
+}
+ul, li {
+	list-style: solid;
+}
+table {
+	font-size: 12pt;
+	white-space: pre-wrap;
+	border: 1px solid #000;
+	border-spacing: 0;
+	break-inside: avoid;
+}
+th,
+td {
+	padding: 5px 10px;
+	margin: 10px;
+	border: 1px solid #a5acb2;
+}
+th {
+	white-space: nowrap;
+}
+th div.text-div-center {
+	padding: 0px;
+}
+td div.text-div-center-large, 
+td div.text-div-left-large {
+	padding: 0px;
+}
+td figure,
+td figure img {
+    padding: 5px;
+    margin: 5px;
+    vertical-align: middle;
+}
+td > ul {
+	margin-top: 1mm;
+	padding-top: 1mm;
+}
+.admonition {
+	break-inside: avoid;
+	border: 3px #a5acb2 double;
+	font-size: 12pt;
+	line-height: 1.5em;
+	margin: 3px 0px 5px 0px;
+	padding: 0px 5px 5px 15px;
+	max-width: 100%;
+}
+.admonition p {
+	margin: 6px 0px 0px 0px;
+}
+.admonition>:first-child {
+	margin: 10px 0px 5px -2px;
+}
+.admonition .admonition-title {
+	font-size: 12pt;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+.admonition .admonition-title:before {
+	content: "\e611 ";
+	display: block;
+	float: left;
+	font-family: icon;
+	font-size: 12pt;
+	margin-right: 10px;
+}
+.admonition.warning .admonition-title:before {
+	content: "\ea08";
+}
+.admonition.tip .admonition-title:before {
+	content: "\e9d9";
+}
+.admonition.search .admonition-title:before {
+	content: "\e600";
+}
+.admonition.info .admonition-title:before {
+	content: "\e91f";
+}
+.admonition.link .admonition-title:before {
+	content: "\e9cb";
+}
+td div.admonition, td div.admonition p {
+	font-size: 12pt;
+	line-height: 1.5em;
+	margin-top: -5px;
+	padding-top: 0px;
+	max-width: 95%;
+}
+td div.admonition p.admonition-title {
+	font-size: 12pt;
+	margin-top: -5px;
+	margin-bottom: -10px;
+	padding-top: 0px;
+	max-width: 95%;
+}
+.icon {
+	/* use !important to prevent issues with browser extensions that change fonts */
+	font-family: 'icon' !important;
+	font-style: normal;
+	font-weight: 400;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.icon .icon-search:before {
+	content: "\e600";
+}
+.icon .icon-chevron-right:before {
+	content: "\e602";
+}
+.icon .icon-menu:before {
+	content: "\e604";
+}
+.icon .icon-arrow-forward:before {
+	content: "\e605";
+}
+.icon .icon-twitter:before {
+	content: "\e606";
+}
+.icon .icon-star:before {
+	content: "\e609";
+}
+.icon .icon-warning:before {
+	content: "\e610";
+}
+.icon .icon-bullhorn:before {
+	content: "\e91a";
+}
+.icon .icon-book:before {
+	content: "\e91f";
+}
+.icon .icon-link:before {
+	content: "\e9cb";
+}
+.icon .icon-star-empty:before {
+	content: "\e9d7";
+}
+.icon .icon-point-right:before {
+	content: "\ea04";
+}
+.icon .icon-warning2:before {
+	content: "\ea07";
+}
+figure.align-image-center,
+figure.pad-top {
+	width: 100%;
+    max-width: 100%;
+    margin: 10px 5px;
+}
+span.img-key,
+.legend>span.img-key,
+td span {
+	background-color: #313a42;
+	color: #fff;
+	font-size: 12pt;
+	font-weight: 600;
+	display: initial;
+	vertical-align: text-top;
+	padding: 0px 5px;
+	border-radius: 10px;
+}
+/* color overrides for span num element in legend shortcode */
+.legend>span.img-key {
+    background-color: #ffffff;
+    color: #000000;
+}
+.article span.sku-tag,
+.article span.tag.pink,
+.article span.tag.orng,
+.article span.tag.rxdb,
+.article span.tag.rxbl,
+.article span.tag.rxlb,
+.article span.tag.gld,
+.article td span {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #fff;
+}
+div.legend { /* Default styling for legend-box shortcode outer div */
+  border: #313a42 solid 1px;
+  font-size: 12pt;
+  padding: 10px 15px;
+  width: fit-content;
+}
+.legend>p { /* Align p elements within the legend-box shortcode */
+    display: inline;
+    vertical-align: text-top;
+    padding: 10px;
+}
+.legend>p.legend-name { /* Modify alignment for legend name p elements in legend-box shortcode */
+    padding: 0px;
+}
